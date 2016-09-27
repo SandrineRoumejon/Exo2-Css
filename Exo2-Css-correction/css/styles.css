@@ -14,9 +14,9 @@ header {
   width: 100%;
   height: 150px;
   padding-bottom: 10px;
-  background-color: #fff;
   text-align: center;
   border-bottom: 10px solid #df0a46;
+  background-color: #fff;
   z-index: 100;
 }
 header img {
@@ -75,6 +75,7 @@ nav li a:hover {
 
 /********************************************************
                       SECTIONS
+
 ********************************************************/
 section {
   text-align: center; /* centrage pour toutes les sections*/
@@ -174,6 +175,6 @@ footer img:hover { /* IE 9 */
   to { -webkit-transform: rotate(360deg); }
 }
 @keyframes spin {
-  from {-webkit-transform:rotate(0deg);transform:rotate(0deg);}
-  to {-webkit-transform:rotate(360deg);transform:rotate(360deg);}
+  from {transform:rotate(0deg);}
+  to {transform:rotate(360deg);}
 }
